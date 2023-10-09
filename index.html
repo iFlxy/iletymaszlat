@@ -74,24 +74,6 @@
         <div class="popup-button" id="confirm-button">Tak, mam ukończone 18 lat</div>
     </div>
 
-    <script>
-        // Function to show the popup
-        function showPopup() {
-            const popup = document.getElementById("popup");
-            popup.classList.add("show-popup");
-        }
-
-        // Show the popup when the page loads (e.g., for a cookies popup)
-        window.addEventListener("load", showPopup);
-
-        // Handle the "Confirm" button click event
-        const confirmButton = document.getElementById("confirm-button");
-        confirmButton.addEventListener("click", () => {
-            const popup = document.getElementById("popup");
-            popup.classList.remove("show-popup");
-        });
-    </script>
-
     <script src='./index.js'></script>
 
     <script async src='https://www.googletagmanager.com/gtag/js?id=UA-3898076-24'></script>
